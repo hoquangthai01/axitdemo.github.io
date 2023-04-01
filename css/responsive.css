@@ -99,6 +99,9 @@
   .process-child {
     margin: 20px;
   }
+  .img-wrap{
+    justify-content:center;
+  }
   .block-contact {
     margin: 20px 0px 0px 0px;
   }
