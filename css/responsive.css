@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1024px) {
+  .feature-content img {
+    transform: unset;
+    width: 100%;
+  }
+  .custom-section .content .underline {
+    margin: 10px auto;
+  }
+  .custom-section .content {
+    padding: 20px 0px;
+  }
+  .custom-section .content .btn-download {
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* mobile menu */
+  .navbar-toggler {
+    display: block;
+    color: white;
+  }
+  .nav-bar-text {
+    position: absolute;
+    left: -100%;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    background-color: #000;
+  }
+  .nav-bar-text ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-bar-text ul li {
+    padding: 20px 0px;
+    font-size: 20px;
+  }
+  .nav-bar-text.nav-visible {
+    left: 0% !important;
+  }
+  /* end mobile menu */
+  .block-contact {
+    width: 100%;
+    margin: 40px 100px;
+  }
+  .section-feature-1 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .img-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .section-feature-2 {
+    padding: 40px 0px;
+  }
+  .section-feature-2 .row {
+    flex-direction: column-reverse;
+  }
+  .section-feature-3 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  .process-child {
+    margin: 20px 100px;
+  }
+  .title-box {
+    margin-bottom: 50px;
+  }
+  .title-box .title {
+    font-size: 27px;
+  }
+  .custom-section .content {
+    padding: 0px 0px;
+  }
+  .btn-download {
+    padding: 5px 20px;
+  }
+  .contact {
+    padding-top: 20px;
+  }
+  .title-box .underline-2 {
+    margin: 15px auto;
+  }
+  .underline-2 {
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: #ff9b51;
+    margin: 15px 0px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .section-banner {
+    padding: 50px 0px;
+  }
+  .process-child {
+    margin: 20px;
+  }
+  .block-contact {
+    margin: 20px 0px 0px 0px;
+  }
+  .nav-tabs {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .nav-tabs .nav {
+    flex-direction: row !important;
+  }
+  .nav-tabs .nav .nav-link {
+    margin: 2px;
+  }
+  .our-process {
+    padding: 70px 0px;
+  }
+  .img-right {
+    margin-top: 50px;
+  }
+  .img-bg img {
+    height: 200px;
+  }
+  .custom-section .content {
+    padding: 20px 15px;
+  }
+  .contact .inputgroup textarea {
+    margin: 15px 0px;
+    padding: 10px 0px;
+  }
+}
